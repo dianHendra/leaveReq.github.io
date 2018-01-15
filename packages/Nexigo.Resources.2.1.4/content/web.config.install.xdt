@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <configSections xdt:Transform="InsertIfMissing">
+    <sectionGroup name="nexigo.web" xdt:Transform="InsertIfMissing">
+      <section name="resources" type="Nexigo.Web.Configuration.ResourcesSection, Nexigo.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null" xdt:Transform="InsertIfMissing"/>
+    </sectionGroup>
+  </configSections>
+  <nexigo.web xdt:Transform="InsertIfMissing">
+    <resources source="bin/Nexigo.Resources.dll" xdt:Transform="InsertIfMissing" />
+  </nexigo.web>
+</configuration>

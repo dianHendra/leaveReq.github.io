@@ -1,0 +1,68 @@
+xg.widget({
+	text: 'Grid Basic',
+	rows: [{
+		name: 'panel1',
+		hide: true,
+		text: 'Configurations'
+	}, {
+		name: 'panel2',
+		hide: true,
+		text: 'Source Code'
+	}, {
+		name: 'panel3',
+		text: 'Sample Grid',
+		fields: [{
+			name: 'grid1',
+			type: 'grid',
+			data: 'data/customers.txt',
+			fields: [{
+				name: 'CompanyName',
+				text: 'Company Name'
+			}, {
+				name: 'ContactName',
+				text: 'Contact Name',
+			}, {
+				name: 'ContactTitle',
+				text: 'Contact Title'
+			}],
+			onClick: 'selectedRow'
+		}],
+	}, {
+		name: 'panel4',
+		text: 'Action Link',
+		fields: [{
+			type: 'buttons',
+			buttons: [{
+				text: 'Refresh',
+				icon: 'fa-refresh',
+				action: 'refreshGrid'
+			}, {
+				text: 'Edit',
+				icon: 'fa-edit',
+				action: 'editGrid'
+			}, {
+				text: 'Set Active',
+				icon: 'fa-hand',
+				action: 'setGrid'
+			}]
+		}]
+	}, {
+		name: 'panel5'
+	}],
+	init: function() {
+
+	}, 
+	selectedRow: function(e, idx, row) {
+		console.log(row);
+	},
+	refreshGrid: function() {
+		xg.grid.refresh('grid1');
+	},
+	editGrid: function() {
+		var data = xg.grid.getSelectedRow('grid1');
+		$('[data-name=panel5]').html(JSON.stringify(data));
+	},
+	setGrid: function() {
+		xg.grid.selectRow('grid1', 8);
+	}
+});

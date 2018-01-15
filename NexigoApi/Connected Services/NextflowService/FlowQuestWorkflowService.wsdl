@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="FlowQuestWorkflowService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://nextflow.navcore.com/NextflowAPI/FlowQuestWorkflowService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://nextflow.navcore.com/NextflowAPI/FlowQuestWorkflowService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://nextflow.navcore.com/NextflowAPI/FlowQuestWorkflowService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IFlowQuestWorkflowService_CreateProcessInstance_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateProcessInstance" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_CreateProcessInstance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateProcessInstanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetActionsInCurActv_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetActionsInCurActv" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetActionsInCurActv_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetActionsInCurActvResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetAvailableActions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableActions" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetAvailableActions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableActionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_ExecActionInCurrentActv_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecActionInCurrentActv" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_ExecActionInCurrentActv_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecActionInCurrentActvResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_ExecuteAction_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteAction" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_ExecuteAction_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteActionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GoToActivity_InputMessage">
+    <wsdl:part name="parameters" element="tns:GoToActivity" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GoToActivity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GoToActivityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_ReRoute_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReRoute" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_ReRoute_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReRouteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetTaskList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTaskList" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetTaskList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTaskListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetTaskListWithOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTaskListWithOrder" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetTaskListWithOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTaskListWithOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetTaskListAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTaskListAdmin" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetTaskListAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTaskListAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetCommentHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCommentHistory" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetCommentHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCommentHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetBulkCommentHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBulkCommentHistory" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetBulkCommentHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBulkCommentHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetProcessVariable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProcessVariable" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetProcessVariable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProcessVariableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_ChangeProcessVariableValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeProcessVariableValue" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_ChangeProcessVariableValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeProcessVariableValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_ExecuteCancel_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteCancel" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_ExecuteCancel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteCancelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetLastActivity_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastActivity" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetLastActivity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastActivityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetLastActivityWithParticipant_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastActivityWithParticipant" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetLastActivityWithParticipant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastActivityWithParticipantResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetLastActivityWithOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastActivityWithOrder" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetLastActivityWithOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastActivityWithOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetInitiator_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInitiator" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetInitiator_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInitiatorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetVisualActivity_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisualActivity" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetVisualActivity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisualActivityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetVisualActivityWithActOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisualActivityWithActOrder" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetVisualActivityWithActOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisualActivityWithActOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetVisualWorkFlow_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisualWorkFlow" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetVisualWorkFlow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisualWorkFlowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetDetailParticipant_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDetailParticipant" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetDetailParticipant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDetailParticipantResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetManagerByPayrollId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetManagerByPayrollId" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_GetManagerByPayrollId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetManagerByPayrollIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_SkipProcessGeneric_InputMessage">
+    <wsdl:part name="parameters" element="tns:SkipProcessGeneric" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_SkipProcessGeneric_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SkipProcessGenericResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_SkipProcess_InputMessage">
+    <wsdl:part name="parameters" element="tns:SkipProcess" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_SkipProcess_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SkipProcessResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_SkipTheProcess_InputMessage">
+    <wsdl:part name="parameters" element="tns:SkipTheProcess" />
+  </wsdl:message>
+  <wsdl:message name="IFlowQuestWorkflowService_SkipTheProcess_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SkipTheProcessResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IFlowQuestWorkflowService">
+    <wsdl:operation name="CreateProcessInstance">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/CreateProcessInstance" message="tns:IFlowQuestWorkflowService_CreateProcessInstance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/CreateProcessInstanceResponse" message="tns:IFlowQuestWorkflowService_CreateProcessInstance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetActionsInCurActv">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetActionsInCurActv" message="tns:IFlowQuestWorkflowService_GetActionsInCurActv_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetActionsInCurActvResponse" message="tns:IFlowQuestWorkflowService_GetActionsInCurActv_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableActions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetAvailableActions" message="tns:IFlowQuestWorkflowService_GetAvailableActions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetAvailableActionsResponse" message="tns:IFlowQuestWorkflowService_GetAvailableActions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecActionInCurrentActv">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/ExecActionInCurrentActv" message="tns:IFlowQuestWorkflowService_ExecActionInCurrentActv_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/ExecActionInCurrentActvResponse" message="tns:IFlowQuestWorkflowService_ExecActionInCurrentActv_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteAction">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/ExecuteAction" message="tns:IFlowQuestWorkflowService_ExecuteAction_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/ExecuteActionResponse" message="tns:IFlowQuestWorkflowService_ExecuteAction_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GoToActivity">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GoToActivity" message="tns:IFlowQuestWorkflowService_GoToActivity_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GoToActivityResponse" message="tns:IFlowQuestWorkflowService_GoToActivity_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReRoute">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/ReRoute" message="tns:IFlowQuestWorkflowService_ReRoute_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/ReRouteResponse" message="tns:IFlowQuestWorkflowService_ReRoute_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetTaskList" message="tns:IFlowQuestWorkflowService_GetTaskList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetTaskListResponse" message="tns:IFlowQuestWorkflowService_GetTaskList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskListWithOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetTaskListWithOrder" message="tns:IFlowQuestWorkflowService_GetTaskListWithOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetTaskListWithOrderResponse" message="tns:IFlowQuestWorkflowService_GetTaskListWithOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskListAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetTaskListAdmin" message="tns:IFlowQuestWorkflowService_GetTaskListAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetTaskListAdminResponse" message="tns:IFlowQuestWorkflowService_GetTaskListAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCommentHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetCommentHistory" message="tns:IFlowQuestWorkflowService_GetCommentHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetCommentHistoryResponse" message="tns:IFlowQuestWorkflowService_GetCommentHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBulkCommentHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetBulkCommentHistory" message="tns:IFlowQuestWorkflowService_GetBulkCommentHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetBulkCommentHistoryResponse" message="tns:IFlowQuestWorkflowService_GetBulkCommentHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProcessVariable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetProcessVariable" message="tns:IFlowQuestWorkflowService_GetProcessVariable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetProcessVariableResponse" message="tns:IFlowQuestWorkflowService_GetProcessVariable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeProcessVariableValue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/ChangeProcessVariableValue" message="tns:IFlowQuestWorkflowService_ChangeProcessVariableValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/ChangeProcessVariableValueResponse" message="tns:IFlowQuestWorkflowService_ChangeProcessVariableValue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteCancel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/ExecuteCancel" message="tns:IFlowQuestWorkflowService_ExecuteCancel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/ExecuteCancelResponse" message="tns:IFlowQuestWorkflowService_ExecuteCancel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastActivity">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetLastActivity" message="tns:IFlowQuestWorkflowService_GetLastActivity_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetLastActivityResponse" message="tns:IFlowQuestWorkflowService_GetLastActivity_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastActivityWithParticipant">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetLastActivityWithParticipant" message="tns:IFlowQuestWorkflowService_GetLastActivityWithParticipant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetLastActivityWithParticipantResponse" message="tns:IFlowQuestWorkflowService_GetLastActivityWithParticipant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastActivityWithOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetLastActivityWithOrder" message="tns:IFlowQuestWorkflowService_GetLastActivityWithOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetLastActivityWithOrderResponse" message="tns:IFlowQuestWorkflowService_GetLastActivityWithOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInitiator">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetInitiator" message="tns:IFlowQuestWorkflowService_GetInitiator_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetInitiatorResponse" message="tns:IFlowQuestWorkflowService_GetInitiator_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVisualActivity">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetVisualActivity" message="tns:IFlowQuestWorkflowService_GetVisualActivity_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetVisualActivityResponse" message="tns:IFlowQuestWorkflowService_GetVisualActivity_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVisualActivityWithActOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetVisualActivityWithActOrder" message="tns:IFlowQuestWorkflowService_GetVisualActivityWithActOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetVisualActivityWithActOrderResponse" message="tns:IFlowQuestWorkflowService_GetVisualActivityWithActOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVisualWorkFlow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetVisualWorkFlow" message="tns:IFlowQuestWorkflowService_GetVisualWorkFlow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetVisualWorkFlowResponse" message="tns:IFlowQuestWorkflowService_GetVisualWorkFlow_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDetailParticipant">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetDetailParticipant" message="tns:IFlowQuestWorkflowService_GetDetailParticipant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetDetailParticipantResponse" message="tns:IFlowQuestWorkflowService_GetDetailParticipant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetManagerByPayrollId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetManagerByPayrollId" message="tns:IFlowQuestWorkflowService_GetManagerByPayrollId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/GetManagerByPayrollIdResponse" message="tns:IFlowQuestWorkflowService_GetManagerByPayrollId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SkipProcessGeneric">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/SkipProcessGeneric" message="tns:IFlowQuestWorkflowService_SkipProcessGeneric_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/SkipProcessGenericResponse" message="tns:IFlowQuestWorkflowService_SkipProcessGeneric_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SkipProcess">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/SkipProcess" message="tns:IFlowQuestWorkflowService_SkipProcess_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/SkipProcessResponse" message="tns:IFlowQuestWorkflowService_SkipProcess_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SkipTheProcess">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/SkipTheProcess" message="tns:IFlowQuestWorkflowService_SkipTheProcess_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFlowQuestWorkflowService/SkipTheProcessResponse" message="tns:IFlowQuestWorkflowService_SkipTheProcess_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IFlowQuestWorkflowService" type="tns:IFlowQuestWorkflowService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateProcessInstance">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/CreateProcessInstance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetActionsInCurActv">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetActionsInCurActv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableActions">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetAvailableActions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecActionInCurrentActv">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/ExecActionInCurrentActv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteAction">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/ExecuteAction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GoToActivity">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GoToActivity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReRoute">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/ReRoute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskList">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetTaskList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskListWithOrder">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetTaskListWithOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskListAdmin">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetTaskListAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommentHistory">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetCommentHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBulkCommentHistory">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetBulkCommentHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProcessVariable">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetProcessVariable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangeProcessVariableValue">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/ChangeProcessVariableValue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteCancel">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/ExecuteCancel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastActivity">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetLastActivity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastActivityWithParticipant">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetLastActivityWithParticipant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastActivityWithOrder">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetLastActivityWithOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInitiator">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetInitiator" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVisualActivity">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetVisualActivity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVisualActivityWithActOrder">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetVisualActivityWithActOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVisualWorkFlow">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetVisualWorkFlow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDetailParticipant">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetDetailParticipant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetManagerByPayrollId">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/GetManagerByPayrollId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SkipProcessGeneric">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/SkipProcessGeneric" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SkipProcess">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/SkipProcess" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SkipTheProcess">
+      <soap:operation soapAction="http://tempuri.org/IFlowQuestWorkflowService/SkipTheProcess" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FlowQuestWorkflowService">
+    <wsdl:port name="BasicHttpBinding_IFlowQuestWorkflowService" binding="tns:BasicHttpBinding_IFlowQuestWorkflowService">
+      <soap:address location="http://nextflow.navcore.com/NextflowAPI/FlowQuestWorkflowService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

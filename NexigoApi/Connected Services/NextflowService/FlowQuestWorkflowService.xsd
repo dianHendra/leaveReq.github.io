@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://nextflow.navcore.com/NextflowAPI/FlowQuestWorkflowService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" />
+  <xs:element name="CreateProcessInstance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="initiatorId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateProcessInstanceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateProcessInstanceResult" type="xs:boolean" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="taskItem" nillable="true" type="q1:TaskItemResult" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetActionsInCurActv">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetActionsInCurActvResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetActionsInCurActvResult" type="xs:boolean" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="availableActions" nillable="true" type="q2:ArrayOfActivityAction" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAvailableActions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+        <xs:element minOccurs="0" name="activityId" nillable="true" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAvailableActionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetAvailableActionsResult" type="xs:boolean" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="availableActions" nillable="true" type="q3:ArrayOfActivityAction" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecActionInCurrentActv">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+        <xs:element minOccurs="0" name="actionName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PayrollId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="positionId" nillable="true" type="xs:int" />
+        <xs:element minOccurs="0" name="comment" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="attachmentName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="isadmin" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecActionInCurrentActvResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ExecActionInCurrentActvResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteAction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+        <xs:element minOccurs="0" name="activityId" nillable="true" type="xs:int" />
+        <xs:element minOccurs="0" name="actionName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PayrollId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="positionId" nillable="true" type="xs:int" />
+        <xs:element minOccurs="0" name="comment" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="attachmentName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="isadmin" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteActionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ExecuteActionResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GoToActivity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+        <xs:element minOccurs="0" name="activityName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GoToActivityResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GoToActivityResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReRoute">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReRouteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ReRouteResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="goToActivityName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTaskList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="PayrollId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="processId" nillable="true" type="xs:int" />
+        <xs:element minOccurs="0" name="processName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="activityName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="page" type="xs:int" />
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTaskListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetTaskListResult" type="xs:boolean" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="taskItems" nillable="true" type="q4:ArrayOfTaskItemResult" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTaskListWithOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="whereQuery" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="page" type="xs:int" />
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+        <xs:element minOccurs="0" name="orderBy" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ascOrDesc" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTaskListWithOrderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetTaskListWithOrderResult" type="xs:boolean" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="taskLists" nillable="true" type="q5:ArrayOfTaskList" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTaskListAdmin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="page" type="xs:int" />
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+        <xs:element minOccurs="0" name="appcode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTaskListAdminResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetTaskListAdminResult" type="xs:boolean" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="taskItems" nillable="true" type="q6:ArrayOfTaskItemResult" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCommentHistory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+        <xs:element minOccurs="0" name="page" type="xs:int" />
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCommentHistoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetCommentHistoryResult" type="xs:boolean" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="commentHistories" nillable="true" type="q7:ArrayOfCommentHistoryResult" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBulkCommentHistory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="page" type="xs:int" />
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBulkCommentHistoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetBulkCommentHistoryResult" type="xs:boolean" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="commentHistories" nillable="true" type="q8:ArrayOfCommentHistoryResult" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProcessVariable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProcessVariableResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetProcessVariableResult" type="xs:boolean" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="processVariables" nillable="true" type="q9:ArrayOfProcessVariable" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChangeProcessVariableValue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+        <xs:element minOccurs="0" name="processVariableName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="processVariableValue" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChangeProcessVariableValueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ChangeProcessVariableValueResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteCancel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+        <xs:element minOccurs="0" name="PayrollId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="comment" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteCancelResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ExecuteCancelResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLastActivity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLastActivityResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetLastActivityResult" type="xs:boolean" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="ListActivity" nillable="true" type="q10:ArrayOfListActivity" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLastActivityWithParticipant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLastActivityWithParticipantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetLastActivityWithParticipantResult" type="xs:boolean" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="lastActivity" nillable="true" type="q11:ArrayOfLastActivity" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLastActivityWithOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="whereQuery" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="page" type="xs:int" />
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+        <xs:element minOccurs="0" name="orderBy" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ascOrDesc" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLastActivityWithOrderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetLastActivityWithOrderResult" type="xs:boolean" />
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="lastActivity" nillable="true" type="q12:ArrayOfLastActivityOrder" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetInitiator">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetInitiatorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetInitiatorResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="initiatorid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisualActivity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisualActivityResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetVisualActivityResult" type="xs:boolean" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="ListVisualActivity" nillable="true" type="q13:ArrayOfListVisualActivity" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisualActivityWithActOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisualActivityWithActOrderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetVisualActivityWithActOrderResult" type="xs:boolean" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="ListVisualActivity" nillable="true" type="q14:ArrayOfListVisualActivityOrder" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisualWorkFlow">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisualWorkFlowResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetVisualWorkFlowResult" type="xs:boolean" />
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="ListActivity" nillable="true" type="q15:ArrayOfActivity" />
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="ListAction" nillable="true" type="q16:ArrayOfActiion" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDetailParticipant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="group_id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDetailParticipantResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetDetailParticipantResult" type="xs:boolean" />
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="ListParticipant" nillable="true" type="q17:ArrayOfGroupParticipantDetail" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetManagerByPayrollId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="PayrollId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetManagerByPayrollIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetManagerByPayrollIdResult" type="xs:boolean" />
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/FlowQuestWorkflowService" minOccurs="0" name="PeopleInfos" nillable="true" type="q18:ArrayOfPeopleInfo" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SkipProcessGeneric">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+        <xs:element minOccurs="0" name="PayrollId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SkipProcessGenericResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SkipProcessGenericResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SkipProcess">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+        <xs:element minOccurs="0" name="PayrollId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SkipProcessResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SkipProcessResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SkipTheProcess">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tenantId" type="xs:int" />
+        <xs:element minOccurs="0" name="processId" type="xs:int" />
+        <xs:element minOccurs="0" name="parentProcessId" nillable="true" type="xs:int" />
+        <xs:element minOccurs="0" name="payrollId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SkipTheProcessResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SkipTheProcessResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

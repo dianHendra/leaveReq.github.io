@@ -1,0 +1,697 @@
+﻿::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: #f5f5f5
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    border-radius: 10px;
+    background-color: #f5f5f5
+}
+
+body .nexigo-widget, body .sg-body, body .sg-body-content {
+    background-color: transparent
+}
+
+
+body {
+    background: url('https://i2.wp.com/www.cerecdigest.net/wp-content/uploads/2017/01/free-black-polygon-vector-background-1-1.jpg') no-repeat;
+    font-family: Calibri,"Segoe UI",Segoe,Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px
+}
+
+.nexigo-menu, .sg-header, .sg-header-menu {  
+    color: #fff;
+    background-color: #25a850
+}
+
+#side-logo {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box
+}
+
+    #side-logo img {
+        max-width: 100%
+    }
+
+.sg-header {
+    position: fixed
+}
+
+    .sg-header .nexigo-menu.materialize {
+        box-shadow: none
+    }
+
+    .sg-header .nexigo-menu .m-menu-icon {
+        background-color: #fff;
+        border-color: #fff
+    }
+
+        .sg-header .nexigo-menu .m-menu-icon .strip {
+            border-color: #fff
+        }
+
+            .sg-header .nexigo-menu .m-menu-icon .strip:after {
+                background-color: #fff
+            }
+
+    .sg-header .nexigo-menu li {
+        border: none
+    }
+
+        .sg-header .nexigo-menu li.active {
+            background-color: #9f0a0b
+        }
+
+.nexigo-menu > ul > li a {
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer
+}
+
+.nexigo-menu > ul > li i.fa-chevron-down::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-top: 8px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent
+}
+
+.nexigo-menu > ul div {
+    margin-top: 0;
+    color: #9f0a0b;
+    background-color: #FFF;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden
+}
+
+    .nexigo-menu > ul div li:hover {
+        color: #FFF;
+        background-color: #9f0a0b
+    }
+
+    .nexigo-menu > ul div li a {
+        color: #9f0a0b;
+        cursor: pointer;
+        font-weight: inherit;
+        line-height: 32px
+    }
+
+        .nexigo-menu > ul div li a:hover {
+            color: #fff
+        }
+
+.sg-body-rightbar {
+    width: 230px;
+    position: fixed;
+    top: 90px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 0 10px;
+    z-index: 9997
+}
+
+    .sg-body-rightbar #side-toolbar .xg-toolbar button {
+        min-width: 103px;
+        display: block;
+        margin: 5px;
+        font-weight: 700;
+        font-size: 13px
+    }
+
+        .sg-body-rightbar #side-toolbar .xg-toolbar button .btn-text {
+            margin-left: 5px
+        }
+
+.sg-body {
+    margin-top: 40px
+}
+
+.nexigo-widget {
+    background-color: #76f29d;
+    font-family: calibri;
+    padding: 0
+}
+
+    .nexigo-widget .nexigo-widget-header {
+        font-size: 20px;
+        margin-bottom: 10px;
+        border-bottom: none;
+        background-color: #22a34b;
+        color: #76f29d;
+        font-weight: 700;
+        text-align: center
+    }
+
+    .nexigo-widget .nexigo-widget-body .xg-panel .title {
+        font-size: 20px;
+        border-bottom: 2px solid #000
+    }
+
+    .nexigo-widget .nexigo-widget-body .xg-panel .xg-field label {
+        font-size: 14px;
+        font-weight: 700
+    }
+
+    .nexigo-widget .nexigo-widget-body .xg-panel .xg-field.nod-error .field-control input, .nexigo-widget .nexigo-widget-body .xg-panel .xg-field.nod-error .field-control input[type=text], .nexigo-widget .nexigo-widget-body .xg-panel .xg-field.nod-error .field-control input[type=password], .nexigo-widget .nexigo-widget-body .xg-panel .xg-field.nod-error .field-control select {
+        background-color: inherit;
+        border-color: red
+    }
+
+    .nexigo-widget .nexigo-widget-body .xg-panel .xg-field.nod-error .field-control.addons .addon.prefix, .nexigo-widget .nexigo-widget-body .xg-panel .xg-field.nod-error .field-control.addons .addon.suffix {
+        border-color: red
+    }
+
+    .nexigo-widget .nexigo-widget-body .xg-panel .xg-field.nod-error .field-control .text-icon {
+        border-color: red !important;
+        background-color: #fff !important
+    }
+
+    .nexigo-widget .nexigo-widget-body .xg-panel .xg-field.nod-error .field-control button {
+        background-color: #EC4242
+       
+    }
+
+    .nexigo-widget .nexigo-widget-body .xg-panel .xg-field.disabled .field-control.addons .addon.prefix, .nexigo-widget .nexigo-widget-body .xg-panel .xg-field.disabled .field-control.addons .addon.suffix {
+        border-color: #cbcbcb
+    }
+
+        .nexigo-widget .nexigo-widget-body .xg-panel .xg-field.disabled .field-control.addons .addon.prefix .text-icon, .nexigo-widget .nexigo-widget-body .xg-panel .xg-field.disabled .field-control.addons .addon.suffix .text-icon {
+            background-color: #FFF
+        }
+
+    .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control input, .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control input[type=text], .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control input[type=password], .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control select, .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control textarea {
+        border: none;
+        border-bottom: 1px solid #000;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 2px
+    }
+
+        .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control input[disabled=disabled], .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control input[readonly=readonly], .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control input[type=text][disabled=disabled], .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control input[type=text][readonly=readonly], .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control input[type=password][disabled=disabled], .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control input[type=password][readonly=readonly], .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control select[disabled=disabled], .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control select[readonly=readonly], .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control textarea[disabled=disabled], .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control textarea[readonly=readonly] {
+            background-color: inherit;
+            border-color: #cbcbcb
+        }
+
+        .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control input.numeric {
+            text-align: left !important
+        }
+
+    .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control.addons .addon.suffix {
+        border-bottom: 1px solid #000
+    }
+
+        .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control.addons .addon.suffix.readonly {
+            border-color: #cbcbcb
+        }
+
+        .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control.addons .addon.suffix .text-icon, .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control.addons .addon.suffix div {
+            border: none
+        }
+
+            .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control.addons .addon.suffix .text-icon.readonly, .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control.addons .addon.suffix div.readonly {
+                color: #cbcbcb
+            }
+
+        .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control.addons .addon.suffix button {
+            background-color: #EC4242;
+            border: 1px solid #d33030
+        }
+
+            .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control.addons .addon.suffix button .icon {
+                color: #fff
+            }
+
+    .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control.addons .addon.prefix {
+        border-bottom: 1px solid #000
+    }
+
+        .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control.addons .addon.prefix.readonly {
+            border-color: #cbcbcb
+        }
+
+        .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control.addons .addon.prefix div {
+            border: none;
+            height: 27px
+        }
+
+    .nexigo-widget .nexigo-widget-body .xg-panel .xg-field .field-control .selectize-control.single .selectize-input input[type=text] {
+        height: 26px;
+        border: none
+    }
+
+.selectize-control.single .selectize-input {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2px;
+    border: none;
+    border-bottom: 1px solid #000
+}
+
+    .selectize-control.single .selectize-input.disabled {
+        border-color: #cbcbcb;
+        background: 0 0;
+        background-color: none
+    }
+
+.xg-grid {
+    border: none
+}
+
+    .xg-grid .k-grouping-header {
+        color: rgba(255,255,255,.5);
+        background: #b51b18
+    }
+
+    .xg-grid .k-grid-header {
+        border-right: none;
+        background-color: #FBFBFB
+    }
+
+        .xg-grid .k-grid-header .k-grid-header-wrap.k-auto-scrollable {
+            border-right: none
+        }
+
+        .xg-grid .k-grid-header th.k-header {
+            background-color: #FBFBFB;
+            color: #616161;
+            padding: .25em .786em;
+            border: none
+        }
+
+            .xg-grid .k-grid-header th.k-header a {
+                color: #616161
+            }
+
+    .xg-grid .k-grid-content {
+        overflow-y: auto
+    }
+
+    .xg-grid .k-grid-pager * {
+        line-height: 1.3em !important
+    }
+
+    .xg-grid .k-grid-pager .k-pager-numbers .k-link, .xg-grid .k-grid-pager .k-pager-numbers .k-state-selected, .xg-grid .k-grid-pager .k-pager-wrap > .k-link {
+        line-height: 1.3em
+    }
+
+    .xg-grid .k-grid-pager .k-pager-info {
+        padding: 0 1.333em
+    }
+
+    .xg-grid .k-grid-pager .k-dropdown-wrap .k-input {
+        height: 1.214em
+    }
+
+    .xg-grid .k-pager-numbers .k-link, .xg-grid .k-pager-wrap > .k-link {
+        height: 1.429em
+    }
+
+.nexigo-widget-body {
+    padding-right: 230px;
+    padding-left: 10px
+}
+
+.m-toolbar-icon {
+    width: 48px;
+    height: 48px;
+    background-color: #B51B18;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    display: none
+}
+
+    .m-toolbar-icon .fa {
+        line-height: 47px
+    }
+
+        .m-toolbar-icon .fa:before {
+            content: "\f062"
+        }
+
+    .m-toolbar-icon.active .fa:before {
+        content: "\f00d"
+    }
+
+@media only screen and (max-width:768px) {
+    .sg-body-rightbar {
+        width: 0;
+        left: -100px;
+        background: #ff0;
+        margin: inherit;
+        overflow: visible;
+        position: absolute;
+        top: -100px
+    }
+
+        .sg-body-rightbar #side-navigation, .sg-body-rightbar #side-toolbar .xg-toolbar {
+            display: none
+        }
+
+            .m-toolbar-icon, .sg-body-rightbar #side-toolbar .xg-toolbar.active {
+                display: block
+            }
+
+    .nexigo-widget .nexigo-widget-body {
+        padding-right: 10px
+    }
+
+    #side-toolbar {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        background: #B51B18;
+        border-bottom-right-radius: 30px;
+        padding-right: 50px
+    }
+
+        #side-toolbar .xg-toolbar button {
+            background: 0 0;
+            border: none;
+            text-align: left;
+            color: #fff
+        }
+}
+
+.selectize-input, .selectize-input.dropdown-active, .selectize-input.focus {
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0
+}
+
+.selectize-control.multi .selectize-input > div {
+    cursor: pointer;
+    margin: 0 3px 3px 0;
+    padding: 2px 6px;
+    border-radius: 5px;
+    background: #B51B18;
+    color: #FFF;
+    border: 1px solid #9C1B19
+}
+
+.custom-table table.xg-table {
+    border-spacing: 5px
+}
+
+    .custom-table table.xg-table tr.disabled {
+        pointer-events: none
+    }
+
+    .custom-table table.xg-table tr td {
+        border: 1px solid #F5F5F5;
+        border-radius: 5px;
+        background-color: #FDFDFD;
+        padding: 0
+    }
+
+        .custom-table table.xg-table tr td input[type=text], .custom-table table.xg-table tr td textarea {
+            width: 100%;
+            height: 30px;
+            min-height: 0;
+            background: 0 0;
+            resize: none;
+            line-height: 18px;
+            max-height: inherit;
+            margin: 0;
+            overflow: hidden
+        }
+
+        .custom-table table.xg-table tr td span {
+            white-space: pre;
+            padding: 5px
+        }
+
+        .custom-table table.xg-table tr td.focus {
+            border-color: #33c3f0;
+            box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23)
+        }
+
+        .custom-table table.xg-table tr td textarea {
+            padding: 5px;
+            border: none
+        }
+
+        .custom-table table.xg-table tr td input[type=text] {
+            padding: 5px;
+            border: none;
+            text-align: center
+        }
+
+        .custom-table table.xg-table tr td.action {
+            background-color: transparent;
+            border: none
+        }
+
+            .custom-table table.xg-table tr td.action button {
+                width: 24px;
+                height: 24px;
+                padding: 0;
+                margin: 0
+            }
+
+        .custom-table table.xg-table tr td .bootstrap-datetimepicker-widget {
+            z-index: 9998
+        }
+
+            .custom-table table.xg-table tr td .bootstrap-datetimepicker-widget table td.active, .custom-table table.xg-table tr td .bootstrap-datetimepicker-widget table td.active:hover {
+                background-color: #337ab7 !important;
+                color: #fff;
+                text-shadow: 0 -1px 0 rgba(0,0,0,.25)
+            }
+
+.custom-table.singleline table.xg-table tr td textarea {
+    overflow: hidden;
+    max-height: 22px;
+    height: 22px
+}
+
+.ccai-loading {
+    background-color: rgba(255,255,255,.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9997;
+    padding: 0
+}
+
+    .ccai-loading .logo {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0
+    }
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.ccai-loading .spinner:before {
+    content: 'Loading…';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -40px
+}
+
+.ccai-loading .spinner:not(:required):before {
+    content: '';
+    border-radius: 50%;
+    border-top: 4px solid #d70d0e;
+    border-right: 4px solid transparent;
+    animation: spinner .6s linear infinite
+}
+
+.xg-grid.expand .expanable-cell {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal
+}
+
+.xg-grid .expanable-cell, .xg-navigator .nav-item label {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.selectize-control.multi .selectize-input.has-items {
+    padding: 10px 8px 4px
+}
+
+.xg-navigator {
+    padding: 0;
+    list-style: none;
+    position: relative
+}
+
+    .xg-navigator:before {
+        content: '';
+        position: absolute;
+        width: 3px;
+        margin: auto;
+        background: #FA0;
+        left: 7px;
+        top: 7px;
+        bottom: 7px
+    }
+
+    .xg-navigator .nav-item {
+        padding-left: 27px;
+        font-size: 16px;
+        font-weight: 300;
+        position: relative;
+        cursor: pointer
+    }
+
+        .xg-navigator .nav-item label {
+            font-weight: 400
+        }
+
+        .xg-navigator .nav-item:before {
+            content: '';
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #fa0;
+            border: 4px solid #fa0;
+            position: absolute;
+            left: 0;
+            top: 4px
+        }
+
+        .xg-navigator .nav-item.active:before, .xg-navigator .nav-item:hover:before {
+            border-color: #B81321
+        }
+
+.xg-apvflow {
+    text-align: center;
+    padding: 10px 0
+}
+
+    .xg-apvflow .info {
+        color: #B7B7B7;
+        text-align: center;
+        font-style: italic
+    }
+
+    .xg-apvflow .apvflow-box-wrapper {
+        display: inline-block;
+        vertical-align: top
+    }
+
+        .xg-apvflow .apvflow-box-wrapper .apvflow-box {
+            width: 150px;
+            height: 146px;
+            border: 1px solid #AEAEAE;
+            -webkit-box-shadow: 2px 2px 5px -2px rgba(50,50,50,.75);
+            -moz-box-shadow: 2px 2px 5px -2px rgba(50,50,50,.75);
+            box-shadow: 2px 2px 5px -2px rgba(50,50,50,.75);
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            padding: 5px;
+            text-align: center;
+            overflow: hidden;
+            background-color: #fff;
+            margin-right: 13px;
+            margin-bottom: 13px
+        }
+
+        .xg-apvflow .apvflow-box-wrapper .apvflow-actvity {
+            margin-bottom: 1px
+        }
+
+        .xg-apvflow .apvflow-box-wrapper .apvflow-position {
+            margin-bottom: 0;
+            font-weight: 700;
+            height: 40px;
+            display: table;
+            width: 100%
+        }
+
+            .xg-apvflow .apvflow-box-wrapper .apvflow-position > span {
+                display: table-cell;
+                vertical-align: top
+            }
+
+        .xg-apvflow .apvflow-box-wrapper .apvflow-compdate, .xg-apvflow .apvflow-box-wrapper .apvflow-participant, .xg-apvflow .apvflow-box-wrapper .apvflow-status {
+            margin-bottom: 1px
+        }
+
+        .xg-apvflow .apvflow-box-wrapper .apvflow-approved, .xg-apvflow .apvflow-box-wrapper .apvflow-completed {
+            background-color: #8acc41
+        }
+
+        .xg-apvflow .apvflow-box-wrapper .apvflow-inprogress {
+            background-color: #f3f300
+        }
+
+        .xg-apvflow .apvflow-box-wrapper .apvflow-rejected {
+            background-color: #e90000;
+            color: #fff
+        }
+
+        .xg-apvflow .apvflow-box-wrapper .apvflow-setupcompleted, .xg-apvflow .apvflow-box-wrapper .apvflow-submitted {
+            background-color: #8acc41
+        }
+
+        .xg-apvflow .apvflow-box-wrapper .apvflow-skipped {
+            background-color: #D7D7D7
+        }
+
+.apvflow-legend {
+    text-align: center;
+    margin-top: 10px
+}
+
+    .apvflow-legend > ul {
+        list-style-type: none
+    }
+
+        .apvflow-legend > ul > li {
+            display: inline;
+            margin-right: 15px
+        }
+
+            .apvflow-legend > ul > li i {
+                float: none !important
+            }
+.xg-btn {
+    background-color: #76f29d;
+}

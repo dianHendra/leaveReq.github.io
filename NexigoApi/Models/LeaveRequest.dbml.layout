@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.375" name="LeaveRequest">
+  <DataContextMoniker Name="/LeaveRequestDataContext" />
+  <nestedChildShapes>
+    <classShape Id="090b750b-9a1f-48f6-bc44-0ca2fefe16e7" absoluteBounds="0.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/LeaveRequestDataContext/Division" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19dcad2e-f785-4036-a5ec-c417dcf7d315" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="65950c05-12d5-44cb-b376-4f9b2c9ca01c" absoluteBounds="3.75, 0.75, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/LeaveRequestDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="377742bc-68a0-4619-8b7d-3e2735103e69" absoluteBounds="3.765, 1.21, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="13b61383-cb29-4dd8-a89d-c96b62c705f5" absoluteBounds="0.75, 5.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/LeaveRequestDataContext/Holiday" />
+      <nestedChildShapes>
+        <elementListCompartment Id="39b5d0c4-66fe-4a2a-8f43-eee527e446af" absoluteBounds="0.765, 6.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ff1f142-ebe1-4c01-93d2-aaac3e20e4bf" absoluteBounds="3.75, 5.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/LeaveRequestDataContext/Leave" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4d76839e-f79e-4f3e-af48-599c56063b20" absoluteBounds="3.765, 6.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d8fc474d-f660-4db7-9eb7-b3f8055f5127" absoluteBounds="6.75, 0.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/LeaveRequestDataContext/LeaveReport" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b1f8b00b-39bf-456f-8cb6-cdab65b3b237" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b9f123c4-95f4-48f1-a72a-42b8535e17d1" absoluteBounds="0.75, 8.75, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/LeaveRequestDataContext/Location" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1a4ea7df-5955-4d47-b621-b0649dd4ec7f" absoluteBounds="0.765, 9.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="079bde4d-e30d-4b04-8f10-d905c3e203c4" absoluteBounds="3.75, 8.75, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/LeaveRequestDataContext/Unit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="784ce372-f03b-450d-9faf-f86983db78e1" absoluteBounds="3.765, 9.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0f9a2b72-2392-4fce-b2bc-e901f7257ef5" absoluteBounds="0.5, 2.375, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LeaveRequestDataContext/commentHistory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7187e97d-ab5f-4e6d-be0b-3eaba4e35fc6" absoluteBounds="0.51500000000000012, 2.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="44523045-22d6-45f1-92e0-b9922f7f64a0" absoluteBounds="6.75, 5.625, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/LeaveRequestDataContext/ListLeaveRequest" />
+      <nestedChildShapes>
+        <elementListCompartment Id="50d577f1-4d27-4bab-9199-91177b2a7fe2" absoluteBounds="6.765, 6.085, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

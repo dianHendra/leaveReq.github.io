@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Nexigo.Resources.2.1.4\build\Nexigo.Resources.props" Condition="Exists('..\packages\Nexigo.Resources.2.1.4\build\Nexigo.Resources.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{12F52732-CCB2-4656-AA63-24CB1CA2D331}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nexigo</RootNamespace>
+    <AssemblyName>Nexigo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <NuGetPackageImportStamp>23e434b4</NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.FileSystems, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.FileSystems.3.0.1\lib\net45\Microsoft.Owin.FileSystems.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.StaticFiles, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.StaticFiles.3.0.1\lib\net45\Microsoft.Owin.StaticFiles.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nexigo.Resources.Server">
+      <HintPath>..\NexigoServerLibs\Nexigo.Resources.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\themes\ccai\ccai.css" />
+    <Content Include="images\logo.png" />
+    <Content Include="Index.html" />
+    <Content Include="js\app.js" />
+    <Content Include="js\libs\ace\ace.js" />
+    <Content Include="js\libs\ace\mode-css.js" />
+    <Content Include="js\libs\ace\mode-golang.js" />
+    <Content Include="js\libs\ace\mode-html.js" />
+    <Content Include="js\libs\ace\mode-javascript.js" />
+    <Content Include="js\libs\ace\mode-json.js" />
+    <Content Include="js\libs\ace\mode-markdown.js" />
+    <Content Include="js\libs\ace\theme-monokai.js" />
+    <Content Include="js\libs\ace\theme-terminal.js" />
+    <Content Include="js\libs\ace\theme-textmate.js" />
+    <Content Include="js\libs\ace\theme-xcode.js" />
+    <Content Include="js\libs\ace\worker-css.js" />
+    <Content Include="js\libs\ace\worker-html.js" />
+    <Content Include="js\libs\ace\worker-javascript.js" />
+    <Content Include="js\libs\ace\worker-json.js" />
+    <Content Include="js\libs\ace\worker-lua.js" />
+    <Content Include="js\libs\interact.min.js" />
+    <Content Include="js\views\caseui\login.js" />
+    <Content Include="js\views\caseui\poui.js" />
+    <Content Include="js\views\demo\approvalflow.js" />
+    <Content Include="js\views\demo\autocomplete.js" />
+    <Content Include="js\views\demo\checkbox.js" />
+    <Content Include="js\views\demo\confirm.js" />
+    <Content Include="js\views\demo\content.js" />
+    <Content Include="js\views\demo\datepicker.js" />
+    <Content Include="js\views\demo\dialog.js" />
+    <Content Include="js\views\demo\email.js" />
+    <Content Include="js\views\demo\file.js" />
+    <Content Include="js\views\demo\grid\grid_basic.js" />
+    <Content Include="js\views\demo\grid\grid_kendo_basic.js" />
+    <Content Include="js\views\demo\grid\grid_local.js" />
+    <Content Include="js\views\demo\grid\grid_remote.js" />
+    <Content Include="js\views\demo\grid\grid_remote_error.js" />
+    <Content Include="js\views\demo\grid\grid_template.js" />
+    <Content Include="js\views\demo\grid\table.js" />
+    <Content Include="js\views\demo\lab.js" />
+    <Content Include="js\views\demo\labs\lab-ccai.js" />
+    <Content Include="js\views\demo\labs\lab1.js" />
+    <Content Include="js\views\demo\labs\lab2.js" />
+    <Content Include="js\views\demo\labs\lab3.js" />
+    <Content Include="js\views\demo\labs\lab4.js" />
+    <Content Include="js\views\demo\labs\lab5.js" />
+    <Content Include="js\views\demo\list.js" />
+    <Content Include="js\views\demo\liveedit.js" />
+    <Content Include="js\views\demo\monthpicker.js" />
+    <Content Include="js\views\demo\multiselect.js" />
+    <Content Include="js\views\demo\numeric.js" />
+    <Content Include="js\views\demo\panel.js" />
+    <Content Include="js\views\demo\password.js" />
+    <Content Include="js\views\demo\pdfGenerator.js" />
+    <Content Include="js\views\demo\popup.js" />
+    <Content Include="js\views\demo\radio.js" />
+    <Content Include="js\views\demo\select.js" />
+    <Content Include="js\views\demo\tab.js" />
+    <Content Include="js\views\demo\text.js" />
+    <Content Include="js\views\demo\textarea.js" />
+    <Content Include="js\views\demo\toolbar.js" />
+    <Content Include="js\views\demo\tooltip.js" />
+    <Content Include="js\views\demo\upload.js" />
+    <Content Include="js\views\demo\yearpicker.js" />
+    <Content Include="js\views\home.js" />
+    <Content Include="js\views\home\Approver.js" />
+    <Content Include="js\views\home\employeeHistory.js" />
+    <Content Include="js\views\home\formApproval.js" />
+    <Content Include="js\views\home\formLeave.js" />
+    <Content Include="js\views\home\Login.js" />
+    <Content Include="js\views\home\Report.js" />
+    <Content Include="js\views\test.js" />
+    <Content Include="packages.config" />
+    <Content Include="js\views\demo\grid\grid_basic.js_" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="js\views\makers\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>21385</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:21385/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+    <Error Condition="!Exists('..\packages\Nexigo.Resources.2.1.4\build\Nexigo.Resources.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nexigo.Resources.2.1.4\build\Nexigo.Resources.props'))" />
+    <Error Condition="!Exists('..\packages\Nexigo.Resources.2.1.4\build\Nexigo.Resources.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nexigo.Resources.2.1.4\build\Nexigo.Resources.targets'))" />
+  </Target>
+  <Import Project="..\packages\Nexigo.Resources.2.1.4\build\Nexigo.Resources.targets" Condition="Exists('..\packages\Nexigo.Resources.2.1.4\build\Nexigo.Resources.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

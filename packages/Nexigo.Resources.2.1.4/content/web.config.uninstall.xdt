@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <nexigo.web>
+    <resources source="bin/Nexigo.Resources.dll" xdt:Transform="Remove" xdt:Locator="Match(source)" />
+  </nexigo.web>
+</configuration>

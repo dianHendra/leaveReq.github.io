@@ -1,0 +1,351 @@
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\ApplicationInsights.config
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\csc.exe
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\vbc.exe
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\VBCSCompiler.exe
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\NexigoApi.dll.config
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\NexigoApi.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\NexigoApi.pdb
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.DependencyCollector.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Web.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.WindowsServer.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.ApplicationInsights.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Newtonsoft.Json.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\System.Net.Http.Formatting.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\System.Web.Http.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\System.Web.Http.WebHost.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.DependencyCollector.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Web.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.WindowsServer.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.ApplicationInsights.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Newtonsoft.Json.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\System.Net.Http.Formatting.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\System.Web.Http.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\System.Web.Http.WebHost.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.csprojResolveAssemblyReference.cache
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.pdb
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\ApplicationInsights.config
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\roslyn\csc.exe
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\roslyn\vbc.exe
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\roslyn\VBCSCompiler.exe
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\NexigoApi.dll.config
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\NexigoApi.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\NexigoApi.pdb
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.AI.DependencyCollector.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Web.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.AI.WindowsServer.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.ApplicationInsights.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Newtonsoft.Json.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\System.Net.Http.Formatting.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\System.Web.Cors.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\System.Web.Http.Cors.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\System.Web.Http.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\System.Web.Http.WebHost.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.AI.DependencyCollector.xml
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Web.xml
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.AI.WindowsServer.xml
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.ApplicationInsights.xml
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\System.Web.Http.Cors.xml
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\Newtonsoft.Json.xml
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\System.Net.Http.Formatting.xml
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\System.Web.Http.xml
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\bin\System.Web.Http.WebHost.xml
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.csprojResolveAssemblyReference.cache
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.dll
+D:\Navcore\Makers\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.pdb
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\ApplicationInsights.config
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\csc.exe
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\vbc.exe
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\NexigoApi.dll.config
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\NexigoApi.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\NexigoApi.pdb
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.Web.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Newtonsoft.Json.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Cors.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Http.Cors.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Http.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Http.WebHost.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.Web.xml
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Http.Cors.xml
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Newtonsoft.Json.xml
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Net.Http.Formatting.xml
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Http.xml
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Http.WebHost.xml
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\obj\Debug\NexigoApi.csprojResolveAssemblyReference.cache
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\obj\Debug\NexigoApi.dll
+C:\Users\Hanafi\Desktop\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\obj\Debug\NexigoApi.pdb
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\ApplicationInsights.config
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\csc.exe
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\vbc.exe
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\NexigoApi.dll.config
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\NexigoApi.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\NexigoApi.pdb
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.Web.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Newtonsoft.Json.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Cors.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Http.Cors.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Http.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Http.WebHost.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.Web.xml
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Http.Cors.xml
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\Newtonsoft.Json.xml
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Net.Http.Formatting.xml
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Http.xml
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\bin\System.Web.Http.WebHost.xml
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\obj\Debug\NexigoApi.csprojResolveAssemblyReference.cache
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\obj\Debug\NexigoApi.dll
+C:\Users\Hanafi\Desktop\CRUD Nexigo\makers-master-444659b0ec986f23b50125d792fa857f0a1ea415\NexigoApi\obj\Debug\NexigoApi.pdb
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\ApplicationInsights.config
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\roslyn\csc.exe
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\roslyn\vbc.exe
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\NexigoApi.dll.config
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\NexigoApi.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\NexigoApi.pdb
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.AI.Web.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Newtonsoft.Json.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\System.Web.Cors.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\System.Web.Http.Cors.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\System.Web.Http.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\System.Web.Http.WebHost.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.AI.Web.xml
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\System.Web.Http.Cors.xml
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\Newtonsoft.Json.xml
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\System.Net.Http.Formatting.xml
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\System.Web.Http.xml
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\bin\System.Web.Http.WebHost.xml
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\obj\Debug\NexigoApi.csprojResolveAssemblyReference.cache
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\obj\Debug\NexigoApi.dll
+C:\Users\Hanafi\Desktop\NexigoTemplate\NexigoApi\obj\Debug\NexigoApi.pdb
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\ApplicationInsights.config
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\roslyn\csc.exe
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\roslyn\System.Collections.Immutable.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\roslyn\System.Reflection.Metadata.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\roslyn\vbc.exe
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\roslyn\VBCSCompiler.exe
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\roslyn\VBCSCompiler.exe.config
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\NexigoApi.dll.config
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\NexigoApi.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\NexigoApi.pdb
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.AI.Agent.Intercept.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.AI.DependencyCollector.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.AI.Web.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.AI.WindowsServer.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.ApplicationInsights.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Newtonsoft.Json.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\System.Net.Http.Formatting.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\System.Web.Cors.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\System.Web.Http.Cors.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\System.Web.Http.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\System.Web.Http.WebHost.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.AI.DependencyCollector.xml
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.AI.Web.xml
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.AI.WindowsServer.xml
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.ApplicationInsights.xml
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\System.Web.Http.Cors.xml
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\Newtonsoft.Json.xml
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\System.Net.Http.Formatting.xml
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\System.Web.Http.xml
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\bin\System.Web.Http.WebHost.xml
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\obj\Debug\NexigoApi.csprojResolveAssemblyReference.cache
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\obj\Debug\NexigoApi.dll
+E:\♥File♥\NAVCORE\NexigoTemplate\NexigoApi\obj\Debug\NexigoApi.pdb
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\ApplicationInsights.config
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\roslyn\csc.exe
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\roslyn\System.Collections.Immutable.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\roslyn\System.Reflection.Metadata.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\roslyn\vbc.exe
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\roslyn\VBCSCompiler.exe
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\roslyn\VBCSCompiler.exe.config
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\NexigoApi.dll.config
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\NexigoApi.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\NexigoApi.pdb
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.AI.DependencyCollector.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.AI.Web.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.AI.WindowsServer.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.ApplicationInsights.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Newtonsoft.Json.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\System.Net.Http.Formatting.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\System.Web.Cors.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\System.Web.Http.Cors.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\System.Web.Http.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\System.Web.Http.WebHost.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.AI.DependencyCollector.xml
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.AI.Web.xml
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.AI.WindowsServer.xml
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.ApplicationInsights.xml
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\System.Web.Http.Cors.xml
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\Newtonsoft.Json.xml
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\System.Net.Http.Formatting.xml
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\System.Web.Http.xml
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\bin\System.Web.Http.WebHost.xml
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\obj\Debug\NexigoApi.csprojResolveAssemblyReference.cache
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\obj\Debug\NexigoApi.csproj.CoreCompileInputs.cache
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\obj\Debug\NexigoApi.dll
+E:\Makers Institute\Nexigo\NexigoTemplate\NexigoApi\obj\Debug\NexigoApi.pdb
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\ApplicationInsights.config
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\roslyn\csc.exe
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\roslyn\System.Collections.Immutable.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\roslyn\vbc.exe
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\roslyn\VBCSCompiler.exe
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\roslyn\VBCSCompiler.exe.config
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\NexigoApi.dll.config
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\NexigoApi.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\NexigoApi.pdb
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.AI.DependencyCollector.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.AI.Web.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.AI.WindowsServer.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.ApplicationInsights.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Newtonsoft.Json.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\System.Net.Http.Formatting.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\System.Web.Cors.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\System.Web.Http.Cors.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\System.Web.Http.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\System.Web.Http.WebHost.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.AI.DependencyCollector.xml
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.AI.Web.xml
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.AI.WindowsServer.xml
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.ApplicationInsights.xml
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\System.Web.Http.Cors.xml
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\Newtonsoft.Json.xml
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\System.Net.Http.Formatting.xml
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\System.Web.Http.xml
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\bin\System.Web.Http.WebHost.xml
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\obj\Debug\NexigoApi.csprojResolveAssemblyReference.cache
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\obj\Debug\NexigoApi.csproj.CoreCompileInputs.cache
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\obj\Debug\NexigoApi.dll
+D:\RealProject\Project2\Nexigo Leave dian  ayu azwar\NexigoApi\obj\Debug\NexigoApi.pdb
